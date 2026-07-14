@@ -1,4 +1,4 @@
-import { Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route, Navigate, useLocation } from "react-router-dom";
 import Navbar from "./components/Navbar.jsx";
 import Footer from "./components/Footer.jsx";
 
@@ -11,6 +11,9 @@ import Photography from "./pages/Photography.jsx";
 import Extras from "./pages/Extras.jsx";
 
 export default function App() {
+  const location = useLocation();
+  const showFooter = location.pathname !== "/about";
+
   return (
     <>
       <Navbar />
@@ -38,7 +41,7 @@ export default function App() {
           <Route path="*" element={<Navigate to="/about" replace />} />
         </Routes>
       </main>
-      <Footer />
+      {showFooter && <Footer />}
     </>
   );
 }

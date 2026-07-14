@@ -1,7 +1,7 @@
 .page.about {
-  min-height: calc(100svh - var(--nav-h) - 90px);
-  padding-top: 24px;
-  padding-bottom: 24px;
+  min-height: calc(100svh - var(--nav-h));
+  padding-top: 32px;
+  padding-bottom: 32px;
   display: grid;
   align-content: center;
 }

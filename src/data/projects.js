@@ -17,7 +17,7 @@ export const projects = [
   {
     id: "project-1",
     title: "SpeechWrite",
-    blurb: "project #1 one-line description",
+    blurb: "ASR bias evaluator for accented English",
     tags: ["react", "node.js", "figma"],
     image: "/images/project-1-thumbnail.png", // e.g. "/images/project1.jpg"
     detail: [

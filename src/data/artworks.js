@@ -9,10 +9,10 @@
 export const artworks = [
   {
     id: "art-1",
-    title: "art / design #1 title",
-    blurb: "art #1 one-line description",
+    title: "Nythea Character Splash",
+    blurb: "for a combat-based rhythm game.",
     tags: ["procreate", "illustration"],
-    image: "", // e.g. "/images/art1.jpg"
+    image: "/images/nythea.webp", // e.g. "/images/art1.jpg"
     detail: [
       "art #1 detailed paragraph one — concept, medium, and intent.",
       "art #1 detailed paragraph two — process notes.",
@@ -21,17 +21,17 @@ export const artworks = [
   },
   {
     id: "art-2",
-    title: "art / design #2 title",
-    blurb: "art #2 one-line description",
-    tags: ["illustrator", "branding"],
+    title: "AKARI",
+    blurb: "a natural sunlight lamp",
+    tags: ["blender", "design"],
     image: "",
     detail: ["art #2 detailed paragraph one."],
     links: [],
   },
   {
     id: "art-3",
-    title: "art / design #3 title",
-    blurb: "art #3 one-line description",
+    title: "Background Concept Art",
+    blurb: "for a side-scroller platformer game.",
     tags: ["fusion 360", "product design"],
     image: "",
     detail: ["art #3 detailed paragraph one."],
