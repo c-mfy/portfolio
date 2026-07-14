@@ -1,0 +1,63 @@
+.extras-block {
+  margin-bottom: 56px;
+}
+
+.extras-note {
+  color: var(--ink-soft);
+  margin: -4px 0 20px;
+  max-width: 56ch;
+}
+
+/* --- Instrument switcher --- */
+.instrument-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+.instrument-tab {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 8px 16px;
+  border-radius: 999px;
+  border: none;
+  background: transparent;
+  color: var(--ink-soft);
+  transition: 0.15s ease;
+}
+.instrument-tab:hover { background: #f3fcff; }
+.instrument-tab.on {
+  background: var(--accent);
+  color: #2c5a68;
+}
+
+.instrument-stage {
+  background: var(--surface);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-lg);
+  padding: 28px;
+  box-shadow: var(--shadow-soft);
+}
+
+/* --- Fun facts --- */
+.facts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+}
+.fact-card {
+  background: var(--surface);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius);
+  padding: 22px;
+  box-shadow: var(--shadow-soft);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.fact-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lift);
+}
+.fact-emoji { font-size: 1.8rem; }
+.fact-card h3 { margin: 10px 0 6px; }
+.fact-card p { color: var(--ink-soft); font-size: 0.92rem; margin: 0; }

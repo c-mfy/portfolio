@@ -1,0 +1,70 @@
+.about-grid {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 48px;
+  align-items: center;
+  margin-top: 24px;
+}
+
+/* --- Photo --- */
+.about-photo {
+  position: relative;
+}
+.about-photo img,
+.about-photo-placeholder {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  border-radius: var(--radius-lg);
+  object-fit: cover;
+  box-shadow: var(--shadow-lift);
+}
+.about-photo-placeholder {
+  display: grid;
+  place-items: center;
+  background: linear-gradient(150deg, var(--accent) 0%, #eafbff 70%, #fff 100%);
+  border: 1px solid var(--accent-line);
+}
+.about-photo-placeholder span {
+  font-family: var(--font-display);
+  font-weight: 600;
+  color: #6a93a1;
+}
+
+/* soft floating accent behind the photo */
+.about-photo::before {
+  content: "";
+  position: absolute;
+  inset: -16px -16px auto auto;
+  width: 70%;
+  height: 70%;
+  background: var(--accent);
+  border-radius: var(--radius-lg);
+  z-index: -1;
+  opacity: 0.6;
+}
+
+/* --- Bio --- */
+.about-role {
+  font-family: var(--font-display);
+  font-weight: 600;
+  color: var(--accent-deep);
+  margin: -6px 0 18px;
+}
+.about-text p {
+  color: var(--ink-soft);
+  margin: 0 0 14px;
+}
+.about-socials {
+  margin-top: 26px;
+}
+
+/* --- Responsive --- */
+@media (max-width: 760px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  .about-photo {
+    max-width: 320px;
+  }
+}

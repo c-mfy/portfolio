@@ -1,0 +1,64 @@
+.piano {
+  width: 100%;
+}
+
+.piano-keys {
+  position: relative;
+  display: flex;
+  height: 170px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: var(--shadow-soft);
+  background: #fff;
+  user-select: none;
+  touch-action: none;
+}
+
+.pkey {
+  border: none;
+  margin: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 12px;
+}
+
+.pkey.white {
+  flex: 1;
+  background: #ffffff;
+  border-right: 1px solid var(--hairline);
+  border-radius: 0 0 8px 8px;
+  transition: background 0.08s ease;
+}
+.pkey.white:last-child { border-right: none; }
+.pkey.white:hover { background: #f3fcff; }
+.pkey.white.on { background: var(--accent); }
+
+.pkey.black {
+  position: absolute;
+  top: 0;
+  width: 9%;
+  height: 62%;
+  background: #2a3340;
+  border-radius: 0 0 7px 7px;
+  z-index: 2;
+  transition: background 0.08s ease;
+}
+.pkey.black:hover { background: #3c4757; }
+.pkey.black.on { background: var(--accent-deep); }
+
+.pkey-label {
+  font-family: var(--font-display);
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--ink-faint);
+  pointer-events: none;
+}
+.pkey.black .pkey-label { color: #cfe9f2; }
+
+.instrument-hint {
+  margin: 10px 0 0;
+  font-size: 0.82rem;
+  color: var(--ink-faint);
+  font-family: var(--font-display);
+}

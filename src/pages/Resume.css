@@ -1,0 +1,31 @@
+.resume-head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.resume-frame {
+  height: 80vh;
+  min-height: 520px;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  border: 1px solid var(--hairline);
+  box-shadow: var(--shadow-soft);
+  background: var(--surface);
+}
+
+.resume-fallback {
+  height: 100%;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: 16px;
+  padding: 32px;
+  text-align: center;
+  color: var(--ink-soft);
+}
+
+@media (max-width: 560px) {
+  .resume-head { flex-direction: column; align-items: flex-start; }
+}
