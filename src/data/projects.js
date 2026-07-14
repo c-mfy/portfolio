@@ -31,7 +31,7 @@ export const projects = [
   },
   {
     id: "project-2",
-    title: "Game Bot",
+    title: "BlindBox Studio",
     blurb: "project #2 one-line description",
     tags: ["python", "flask"],
     image: "/images/project-1-thumbnail.png",
