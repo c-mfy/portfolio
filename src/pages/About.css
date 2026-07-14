@@ -1,14 +1,25 @@
+.page.about {
+  min-height: calc(100svh - var(--nav-h) - 90px);
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: grid;
+  align-content: center;
+}
+
 .about-grid {
   display: grid;
   grid-template-columns: 0.9fr 1.1fr;
-  gap: 48px;
+  gap: 28px;
   align-items: center;
-  margin-top: 24px;
+  width: min(860px, 100%);
+  margin: 24px auto 0;
 }
 
 /* --- Photo --- */
 .about-photo {
   position: relative;
+  width: 100%;
+  max-width: 320px;
 }
 .about-photo img,
 .about-photo-placeholder {
@@ -60,6 +71,11 @@
 
 /* --- Responsive --- */
 @media (max-width: 760px) {
+  .page.about {
+    min-height: auto;
+    align-content: start;
+  }
+
   .about-grid {
     grid-template-columns: 1fr;
     gap: 32px;
