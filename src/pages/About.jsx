@@ -9,23 +9,22 @@ export default function About() {
         <div className="about-photo">
           {/* Replace the placeholder below with:
               <img src="/images/me.jpg" alt="YOUR NAME" /> */}
-          <div className="about-photo-placeholder">
-            <img src="/images/aboutmephoto.jpg" alt="About Me Photo" />
-          </div>
+          <img src="/images/aboutmephoto.jpg" alt="About Me Photo" />
         </div>
 
         {/* RIGHT: bio */}
         <div className="about-bio">
-          <p className="eyebrow">Hello, I'm</p>
-          <h1>Xinyu</h1>
+          <p className="eyebrow">Nice to meet you!</p>
+          {/*<h1>Xinyu</h1>
           <p className="about-role">
             cs + industrial design · georgia tech
-          </p>
+          </p>*/}
 
           <div className="about-text">
-            <p>I'm currently a lead instructor at iCode Augusta, where I am doing IT backend work to support the business model.</p>
+            <p>I'm Xinyu. I'm currently a lead instructor at iCode Augusta, where I am doing IT backend work to support the business model.</p>
             <p>
-              I have a lot of different interests!
+              I study CS and Industrial Design at Georgia Tech and in my free time, I love being active outdoors, playing music for my band, and exploring new hobbies.
+              I'm interested in...
             </p>
           </div>
 

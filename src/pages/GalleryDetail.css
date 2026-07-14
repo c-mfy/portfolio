@@ -18,7 +18,7 @@
 .detail-header { margin-bottom: 24px; }
 .detail-blurb {
   color: var(--ink-soft);
-  font-size: 1.05rem;
+  font-size: 14px;
   margin: 0 0 14px;
 }
 .detail-tags {

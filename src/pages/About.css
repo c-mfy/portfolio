@@ -21,8 +21,7 @@
   width: 100%;
   max-width: 320px;
 }
-.about-photo img,
-.about-photo-placeholder {
+.about-photo img {
   width: 100%;
   aspect-ratio: 4 / 5;
   border-radius: var(--radius-lg);
@@ -48,10 +47,10 @@
   inset: -16px -16px auto auto;
   width: 70%;
   height: 70%;
-  background: var(--accent);
+  background: var(--accent-deep);
   border-radius: var(--radius-lg);
   z-index: -1;
-  opacity: 0.6;
+  opacity: 0.3;
 }
 
 /* --- Bio --- */

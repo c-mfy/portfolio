@@ -29,7 +29,7 @@ export default function GalleryDetail({ kind }) {
       </Link>
 
       <header className="detail-header">
-        <h1>{item.title}</h1>
+        <h3>{item.title}</h3>
         <p className="detail-blurb">{item.blurb}</p>
 
         {item.tags?.length > 0 && (

@@ -3,7 +3,7 @@
   top: 0;
   z-index: 100;
   height: var(--nav-h);
-  background: rgba(251, 254, 255, 0.82);
+  background: #fbfeff;
   backdrop-filter: saturate(160%) blur(14px);
   -webkit-backdrop-filter: saturate(160%) blur(14px);
   border-bottom: 1px solid var(--hairline);
@@ -22,7 +22,7 @@
 .nav-brand {
   font-family: var(--font-display);
   font-weight: 700;
-  font-size: 1.15rem;
+  font-size: 18px;
   letter-spacing: 0.02em;
   color: var(--ink);
 }
@@ -37,9 +37,9 @@
 .nav-link {
   font-family: var(--font-display);
   font-weight: 600;
-  font-size: 0.95rem;
+  font-size: 14px;
   color: var(--ink-soft);
-  padding: 8px 14px;
+  padding: 6px 14px;
   border-radius: var(--radius);
   background: transparent;
   border: none;
@@ -76,13 +76,15 @@
   padding: 8px;
   display: flex;
   flex-direction: column;
+  gap: 4px;
   animation: fade-up 0.18s ease both;
 }
 
 .nav-dropdown-link {
+  display: block;
   font-family: var(--font-display);
   font-weight: 600;
-  font-size: 0.92rem;
+  font-size: 14px;
   color: var(--ink-soft);
   padding: 10px 14px;
   border-radius: var(--radius-sm);
