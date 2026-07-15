@@ -13,10 +13,11 @@ export const artworks = [
     blurb: "for a combat-based rhythm game.",
     tags: ["procreate", "illustration"],
     image: "/images/nythea.webp", // e.g. "/images/art1.jpg"
-    gallery: ["/images/nythea-process1.webp", "/images/nythea-process2.webp"],
+    gallery: ["/images/nythea-process1.webp", "/images/nythea-process2.webp", "/images/hypermania1.png", "/images/hypermania2.png"],
     detail: [
-      "art #1 detailed paragraph one — concept, medium, and intent.",
-      "art #1 detailed paragraph two — process notes.",
+      "Sketched and digitally painted the character splash art for a character named Nythea. \
+This was for a combat-based rhythm game called Hypermania for VGDev Spring 2026. This piece was used in the character selection screen and as the player icon.",
+      "I had a lot of fun working on this under my project lead Vivian Gu.",
     ],
     links: [],
   },

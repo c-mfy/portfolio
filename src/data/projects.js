@@ -23,8 +23,10 @@ export const projects = [
     tags: ["react", "node.js", "figma"],
     image: "/images/project-1-thumbnail.png", // e.g. "/images/project1.jpg",
     detail: [
-      "SpeechWrite is a tool designed to evaluate automatic speech recognition bias in accented English.",
-      "project #1 detailed paragraph two — process, challenges, and what you learned.",
+      "Have you ever tried to watch a video where subtitles can't keep up with the speaker's accent? SpeechWrite is a tool designed to evaluate automatic speech recognition bias in accented English so that these issues can be identified and addressed.",
+      "Using Mozilla Common Voice audio, Whisper transcriptions, and phoneme-level comparisons, we built SpeechWrite to make accent-related ASR bias visible and measurable through clear visualizations of where speech recognition systems fail different groups of speakers.",
+      "The idea for the interface is a global view of the countries and dialects that are most severely affected by ASR transcription issues. Making this visually appealing and intuitive helps demonstrate the impact of ASR bias on different speaker groups.",
+      "This project was created for Hacklytics at GT in Spring 2026 with my teammate Lydia He."
     ],
     links: [
       { label: "github", url: "https://github.com/c-mfy/speechwrite" },
@@ -35,10 +37,10 @@ export const projects = [
     title: "MyBlindBox",
     blurb: "customized blind box creation tool",
     tags: ["python", "flask"],
-    image: "/images/project-1-thumbnail.png",
+    image: "/images/myblindbox-thumbnail.png",
     detail: [
-      "project #2 detailed paragraph one.",
-      "project #2 detailed paragraph two.",
+      "MyBlindBox is a web application that allows for customizable blind boxes. Users can design their box template, character card, and 3D figure that can be assembled after printing. It functions similar to character customization in a video game, with the intention of users being able to create tangible and unique blind boxes for themselves or as gifts.",
+      "This is my summer 2026 personal project, so it's still in progress but stay tuned for updates!",
     ],
     links: [{ label: "github", url: "#" }],
   },
