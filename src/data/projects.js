@@ -8,7 +8,9 @@
    - tags:    frameworks / tools — add or remove freely
    - image:   put a file in /public/images and reference it like
               "/images/my-thumb.jpg". Leave "" to show a soft placeholder.
-   - detail:  longer write-up shown on the project's own page.
+  - gallery: optional array of process photos shown underneath the top image
+          on the project detail page.
+  - detail:  longer write-up shown on the project's own page.
               Each string in the array becomes a paragraph.
    - links:   optional buttons on the detail page (e.g. GitHub, live demo)
    ========================================================================= */
@@ -19,20 +21,19 @@ export const projects = [
     title: "SpeechWrite",
     blurb: "ASR bias evaluator for accented English",
     tags: ["react", "node.js", "figma"],
-    image: "/images/project-1-thumbnail.png", // e.g. "/images/project1.jpg"
+    image: "/images/project-1-thumbnail.png", // e.g. "/images/project1.jpg",
     detail: [
-      "project #1 detailed paragraph one — what it is, the problem it solves, and your role.",
+      "SpeechWrite is a tool designed to evaluate automatic speech recognition bias in accented English.",
       "project #1 detailed paragraph two — process, challenges, and what you learned.",
     ],
     links: [
-      { label: "github", url: "#" },
-      { label: "live demo", url: "#" },
+      { label: "github", url: "https://github.com/c-mfy/speechwrite" },
     ],
   },
   {
     id: "project-2",
-    title: "BlindBox Studio",
-    blurb: "project #2 one-line description",
+    title: "MyBlindBox",
+    blurb: "customized blind box creation tool",
     tags: ["python", "flask"],
     image: "/images/project-1-thumbnail.png",
     detail: [

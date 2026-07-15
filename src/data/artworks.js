@@ -13,6 +13,7 @@ export const artworks = [
     blurb: "for a combat-based rhythm game.",
     tags: ["procreate", "illustration"],
     image: "/images/nythea.webp", // e.g. "/images/art1.jpg"
+    gallery: ["/images/nythea-process1.webp", "/images/nythea-process2.webp"],
     detail: [
       "art #1 detailed paragraph one — concept, medium, and intent.",
       "art #1 detailed paragraph two — process notes.",

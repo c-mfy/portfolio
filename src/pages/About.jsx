@@ -24,7 +24,9 @@ export default function About() {
             <p>I'm Xinyu. I'm currently a lead instructor at iCode Augusta, where I am doing IT backend work to support the business model.</p>
             <p>
               I study CS and Industrial Design at Georgia Tech and in my free time, I love being active outdoors, playing music for my band, and exploring new hobbies.
-              I'm interested in...
+            </p>
+            <p>
+              I'm passionate about combining technology and creative arts to produce unique products. This includes:
             </p>
           </div>
 
