@@ -99,7 +99,7 @@ button {
 .eyebrow {
   font-family: var(--font-display);
   font-weight: 600;
-  font-size: 0.82rem;
+  font-size: 14px;
   letter-spacing: 0.04em;
   color: var(--accent-deep);
   margin-bottom: 6px;
@@ -112,7 +112,7 @@ button {
 /* --- Soft pill / tag --- */
 .tag {
   display: inline-block;
-  font-size: 0.78rem;
+  font-size: 12px;
   font-weight: 500;
   padding: 4px 11px;
   border-radius: 999px;

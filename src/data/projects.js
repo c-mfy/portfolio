@@ -37,7 +37,7 @@ export const projects = [
     title: "MyBlindBox",
     blurb: "customized blind box creation tool",
     tags: ["python", "flask"],
-    image: "/images/myblindbox-thumbnail.png",
+    image: "/images/myblindbox-thumbnail.webp",
     detail: [
       "MyBlindBox is a web application that allows for customizable blind boxes. Users can design their box template, character card, and 3D figure that can be assembled after printing. It functions similar to character customization in a video game, with the intention of users being able to create tangible and unique blind boxes for themselves or as gifts.",
       "This is my summer 2026 personal project, so it's still in progress but stay tuned for updates!",
@@ -58,7 +58,7 @@ export const projects = [
     title: "GT Movies Store",
     blurb: "project #4 one-line description",
     tags: ["django", "three.js"],
-    image: "/images/project-1-thumbnail.png",
+    image: "/images/gtmovies_thumbnail.png",
     detail: ["project #5 detailed paragraph one."],
     links: [],
   },

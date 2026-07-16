@@ -9,8 +9,8 @@ export default function Resume() {
     <section className="page resume">
       <div className="page-header resume-head">
         <div>
-          <p className="eyebrow">the one-pager</p>
-          <h1>resume</h1>
+          <h3>resume</h3>
+          <p className="eyebrow">last updated: july 2026</p>
         </div>
         <a href={RESUME_PATH} download className="btn">
           download pdf ↓

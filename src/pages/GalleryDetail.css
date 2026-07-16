@@ -16,7 +16,7 @@
   gap: 6px;
   font-family: var(--font-display);
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: 12px;
   color: var(--ink-soft);
   align-self: flex-start;
 }

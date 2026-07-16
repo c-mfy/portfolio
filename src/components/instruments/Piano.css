@@ -49,7 +49,7 @@
 
 .pkey-label {
   font-family: var(--font-display);
-  font-size: 0.72rem;
+  font-size: 12px;
   font-weight: 600;
   color: var(--ink-faint);
   pointer-events: none;
@@ -58,7 +58,7 @@
 
 .instrument-hint {
   margin: 10px 0 0;
-  font-size: 0.82rem;
+  font-size: 14px;
   color: var(--ink-faint);
   font-family: var(--font-display);
 }

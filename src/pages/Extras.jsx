@@ -36,16 +36,16 @@ export default function Extras() {
   return (
     <section className="page extras">
       <div className="page-header">
-        <p className="eyebrow">off the clock</p>
-        <h1>Extras</h1>
+        <h4 style={{ textAlign: "center" }}> -- PAGE WORK IN PROGRESS-- </h4>
+        <h3>extras</h3>
         <p className="lede">
-          the stuff that doesn't fit on a resume — still a work in progress.
+          WIP - stuff that i'm actually interested in but my resume doesn't show. 
         </p>
       </div>
 
       {/* --- Music --- */}
       <div className="extras-block">
-        <h2>music</h2>
+        <h3>music</h3>
         <p className="extras-note">
           i play piano, guitar, and flute — and once played in a band. try the
           instruments below.
@@ -70,7 +70,7 @@ export default function Extras() {
 
       {/* --- Fun facts --- */}
       <div className="extras-block">
-        <h2>a few more things</h2>
+        <h3>a few more things</h3>
         <div className="facts-grid">
           {FACTS.map((f) => (
             <div className="fact-card" key={f.title}>
