@@ -56,10 +56,13 @@ export const projects = [
   {
     id: "project-4",
     title: "GT Movies Store",
-    blurb: "project #4 one-line description",
-    tags: ["django", "three.js"],
+    blurb: "movie distribution platform",
+    tags: ["django", "python"],
     image: "/images/gtmovies_thumbnail.png",
-    detail: ["project #5 detailed paragraph one."],
+    detail: ["GT Movies Store is a Django web application that I made for CS2340. It is a movie distrubution platform where users can purchase movies, leave reviews, and rate them. It was completely textbook-guided, but it taught me a lot about authentication systems and databases.",
+              "I also designed the logo (does it read as 'GT'?), and took my own notes and made them into a presentation, too.",
+              "Fun fact: the movies I put on there are some of my all-time favorite movies!"
+    ],
     links: [],
   },
   {

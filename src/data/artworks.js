@@ -27,7 +27,10 @@ This was for a combat-based rhythm game called Hypermania for VGDev Spring 2026.
     blurb: "a natural sunlight lamp",
     tags: ["blender", "design"],
     image: "/images/akari.webp",
-    detail: ["art #2 detailed paragraph one."],
+    detail: ["Did you know I love interior design? I truly believe the saying that your room is a reflection of your mind. One of the most important things to me in a room is lighting. Not only that, but the way sunlight casts into a room is one of its most underrated features.",
+      "AKARI is a lamp intended to bring natural sunlight into your room by using reflective panels to distribute the rays in different angles before diffusing them with a translucent dome. ",
+      "I had to learn Blender while pulling an all nighter the day before this was due. It was not fun. But somehow I pulled through and the final render isn't half bad! My brainstorming process, ideation, design, and modeling process is shown above.",
+      "This product may not be the most realistic. In fact, when I asked my professor if this idea was even physically possible, he literally said 'just pretend it does'. He ended up choosing me among 4 other students to present our projects to the entire class. I really enjoyed this project, and I hope you find it cool, too!"],
     links: [],
   },
   {

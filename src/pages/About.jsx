@@ -9,7 +9,7 @@ export default function About() {
         <div className="about-photo">
           {/* Replace the placeholder below with:
               <img src="/images/me.jpg" alt="YOUR NAME" /> */}
-          <img src="/images/aboutmephoto.jpg" alt="About Me Photo" />
+          <img src="/images/aboutmephoto.webp" alt="About Me Photo" />
         </div>
 
         {/* RIGHT: bio */}
