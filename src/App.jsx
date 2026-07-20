@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import { Routes, Route, Navigate, useLocation } from "react-router-dom";
 import Navbar from "./components/Navbar.jsx";
 import Footer from "./components/Footer.jsx";
@@ -18,6 +19,7 @@ export default function App() {
     <>
       <Navbar />
       <main>
+        <Analytics />
         <Routes>
           {/* Landing → About */}
           <Route path="/" element={<Navigate to="/about" replace />} />
