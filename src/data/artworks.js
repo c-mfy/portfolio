@@ -8,7 +8,7 @@
 
 export const artworks = [
   {
-    id: "art-1",
+    id: "nytheacharactersplash",
     title: "Nythea Character Splash",
     blurb: "for a combat-based rhythm game.",
     tags: ["procreate", "illustration"],
@@ -22,7 +22,7 @@ This was for a combat-based rhythm game called Hypermania for VGDev Spring 2026.
     links: [],
   },
   {
-    id: "art-2",
+    id: "akari",
     title: "AKARI",
     blurb: "a natural sunlight lamp",
     tags: ["blender", "design"],
@@ -34,7 +34,7 @@ This was for a combat-based rhythm game called Hypermania for VGDev Spring 2026.
     links: [],
   },
   {
-    id: "art-3",
+    id: "miffypapertowelholder",
     title: "Miffy Paper Towel Holder",
     blurb: "custom designed paper towel holder.",
     tags: ["autodesk inventor", "product design"],
@@ -46,7 +46,7 @@ This was for a combat-based rhythm game called Hypermania for VGDev Spring 2026.
     links: [],
   },
   {
-    id: "art-4",
+    id: "lightborneassets",
     title: "Lightborne Assets",
     blurb: "for a side-scroller platformer game.",
     tags: ["photoshop", "aseprite", "concept art"],

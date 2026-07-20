@@ -17,23 +17,23 @@
 
 export const projects = [
   {
-    id: "project-1",
+    id: "speechwrite",
     title: "SpeechWrite",
     blurb: "ASR bias evaluator for accented English",
-    tags: ["react", "node.js", "figma"],
+    tags: ["react", "node.js", "figma", "claude"],
     image: "/images/project-1-thumbnail.png", // e.g. "/images/project1.jpg",
     detail: [
       "Have you ever tried to watch a video where subtitles can't keep up with the speaker's accent? SpeechWrite is a tool designed to evaluate automatic speech recognition bias in accented English so that these issues can be identified and addressed.",
       "Using Mozilla Common Voice audio, Whisper transcriptions, and phoneme-level comparisons, we built SpeechWrite to make accent-related ASR bias visible and measurable through clear visualizations of where speech recognition systems fail different groups of speakers.",
       "The idea for the interface is a global view of the countries and dialects that are most severely affected by ASR transcription issues. Making this visually appealing and intuitive helps demonstrate the impact of ASR bias on different speaker groups.",
-      "This project was created for Hacklytics at GT in Spring 2026 with my teammate Lydia He."
+      "This project was created for Hacklytics at GT in Spring 2026 with my teammate Lydia He and honorable mention teammate Claude Code :)."
     ],
     links: [
       { label: "github", url: "https://github.com/c-mfy/speechwrite" },
     ],
   },
   {
-    id: "project-2",
+    id: "myblindbox",
     title: "MyBlindBox",
     blurb: "customized blind box creation tool",
     tags: ["python", "flask"],
@@ -45,7 +45,7 @@ export const projects = [
     links: [{ label: "github", url: "#" }],
   },
   {
-    id: "project-3",
+    id: "gtguessr",
     title: "GTGuessr",
     blurb: "Geography based guessing game for GT Campus!",
     tags: ["python", "django"],
@@ -54,7 +54,7 @@ export const projects = [
     links: [],
   },
   {
-    id: "project-4",
+    id: "gtmoviesstore",
     title: "GT Movies Store",
     blurb: "movie distribution platform",
     tags: ["django", "python"],
@@ -66,7 +66,7 @@ export const projects = [
     links: [],
   },
   {
-    id: "project-5",
+    id: "genshinimpactaiguide",
     title: "Genshin Impact AI Guide",
     blurb: "Very first project for CS 3001...",
     tags: ["python", "googleAI"],
