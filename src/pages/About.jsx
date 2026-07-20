@@ -26,7 +26,7 @@ export default function About() {
               I study CS and Industrial Design at Georgia Tech and in my free time, I love being active outdoors, playing music for my band, and exploring new hobbies.
             </p>
             <p>
-              I'm passionate about combining technology and creative arts to produce unique products. This includes:
+              I'm passionate about combining technology and creative arts to produce unique products.
             </p>
           </div>
 

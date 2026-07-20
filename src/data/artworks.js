@@ -39,7 +39,10 @@ This was for a combat-based rhythm game called Hypermania for VGDev Spring 2026.
     blurb: "custom designed paper towel holder.",
     tags: ["autodesk inventor", "product design"],
     image: "/images/paper_towel_holder_1.webp",
-    detail: ["art #3 detailed paragraph one."],
+    detail: ["A miffy themed paper towel holder I cadded because my dorm needed one, and my roommates love miffy. After I joined BattleBots I decided it was time for me to finally learn how to CAD, so I did this project over winter break of my sophomore year while recovering from my wisdom teeth removal :O.",
+      "The design includes magnetic inserts in the miffy head and the vertical pipe so that switching paper towel rolls is easy. The final print was okay, but the miffy head was too big and I still want to change some aspects. Version 2 is coming soon...",
+      "Overall, this was a fun project and definitely made me more comfortable with Autodesk Inventor. If anyone wants the file to print email me!"
+    ],
     links: [],
   },
   {
