@@ -127,7 +127,7 @@ button {
   align-items: center;
   gap: 8px;
   padding: 11px 20px;
-  border-radius: 999px;
+  border-radius: var(--radius-lg);
   border: 1px solid var(--accent-line);
   background: var(--accent);
   color: #2c5a68;
