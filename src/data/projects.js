@@ -17,6 +17,23 @@
 
 export const projects = [
   {
+    id: "datadump",
+    title: "DataDump",
+    blurb: "A 2D pixel platformer for GMTK Game Jam!",
+    tags: ["unity", "figma", "c##"],
+    image: "/images/datadump-process1.png", // e.g. "/images/project1.jpg",
+    detail: [
+      "DataDump is a 2D pixel platformer game that my friends and I made for the 2026 GMTK Game Jam. This Game Jam is one of the biggest out there, reaching 10.6k submissions this year. We only had 4 days to make all of the art, code, and story (while also working 9-5 jobs).",
+      "The theme of the jam was 'Countdown'. In DataDump, you play as an infected robot doing down into the Dump to find something he's lost. Because of the infection, your limbs must be ejected and reassembled each run. You must find replacement parts and scrap to increase your time and go deeper!",
+      "I learned a lot about the terrors of Git mistakes (redid hours of work by hand), watched the sun rise (pulled an all nighter), and stressed about the deadline (only to be given an extra hour when we thought time was up).",
+      "Our game is up on itch.io so please go play it! It's kinda hard at first but I promise you'll get the hang of it. You need to anyway, to save Elena."
+    ],
+    gallery: ["/images/datadump-process1.png", "/images/shoppage.png", "/images/ss1.png", "/images/youdiedpage.png"],
+    links: [
+      { label: "github", url: "https://github.com/candyhen127/GMTKJam" }, { label: "itch.io", url: "https://candyhen127.itch.io/datadump" }
+    ],
+  },
+  {
     id: "speechwrite",
     title: "SpeechWrite",
     blurb: "ASR bias evaluator for accented English",
