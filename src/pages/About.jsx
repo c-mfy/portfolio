@@ -28,6 +28,9 @@ export default function About() {
             <p>
               I'm passionate about combining technology and creative arts to produce unique products. I love how I can take ideas that come from pure imagination and design and build them into real experiences.
             </p>
+            {/* <ul className="about-text"> What I'm up to recently:
+              <li>Picking up soccer again after 10 years!</li>
+            </ul> */}
             <p>
               Connect with me, I'd love to chat about anything, it doesn't have to be tech related!
             </p>
