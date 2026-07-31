@@ -19,7 +19,7 @@ export default function Counter({ value, onIncrement, label }) {
       aria-label={`Add interest for ${label}`}
       type="button"
     >
-      <span className="counter-label">interested</span>
+      <span className="counter-label">HYPEEE</span>
       <span className={`counter-value ${isPopping ? "pop" : ""}`}>{displayValue}</span>
     </button>
   );

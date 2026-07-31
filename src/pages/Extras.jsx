@@ -13,24 +13,24 @@ const INSTRUMENTS = [
 ];
 
 /* Fun-fact cards — add or edit freely */
-const INITIAL_SPORTS = ["badminton", "soccer", "figure skating", "tennis", "snowboarding", "skiing", "running"];
+const INITIAL_SPORTS = ["badminton", "soccer", "figure skating", "tennis", "snowboarding", "rock climbing", "skiing", "running"];
 const ROW_HEIGHT = 48;
 
 const FACTS = [
   {
     emoji: "🎮",
     title: "video games",
-    text: "type about me here — favorite games and what i like about them.",
+    text: "my all time favorite is omori. and yes i play valorant...🫩",
   },
   {
     emoji: "🎭",
     title: "cosplay",
-    text: "i've made a few costumes and want to do a lot more. type about me here.",
+    text: "i've been trying to upgrade from cardboard props and closet cosplays to more professional ones. but this is just a small interest of mine.",
   },
   {
     emoji: "🧵",
     title: "sewing",
-    text: "quilts, bags, pajama pants — i make things. type about me here.",
+    text: "quilts, bags, pillows, pajama pants.",
   },
 ];
 

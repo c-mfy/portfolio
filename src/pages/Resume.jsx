@@ -1,8 +1,6 @@
 import "./Resume.css";
 
-/* Put your resume file at /public/resume.pdf and it will appear here.
-   The download button and the "open in new tab" fallback use the same path. */
-const RESUME_PATH = "/resume.pdf";
+const RESUME_PATH = "/Xinyu_Su_SWE_Resume.pdf";
 
 export default function Resume() {
   return (
