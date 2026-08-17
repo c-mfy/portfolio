@@ -17,6 +17,20 @@
 
 export const projects = [
   {
+    id: "hirae",
+    title: "hirae",
+    blurb: "Track how much you've explored your city",
+    tags: ["react", "typescript", "mobile"],
+    image: "/images/hirae-home-thumbnail.png", // e.g. "/images/project1.jpg",
+    detail: [
+      "WIP."
+    ],
+    gallery: ["/images/hirae-home.png", "/images/hirae-map1.png", "/images/hirae-journal.png", "/images/hirae-edit.png"],
+    links: [
+      { label: "github", url: "https://github.com/candyhen127/GMTKJam" }, { label: "itch.io", url: "https://candyhen127.itch.io/datadump" }
+    ],
+  },
+  {
     id: "datadump",
     title: "DataDump",
     blurb: "A 2D pixel platformer for GMTK Game Jam!",
