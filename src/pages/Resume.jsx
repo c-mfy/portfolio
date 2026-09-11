@@ -8,7 +8,7 @@ export default function Resume() {
       <div className="page-header resume-head">
         <div>
           <h3>resume</h3>
-          <p className="eyebrow">last updated: july 2026</p>
+          <p className="eyebrow">last updated: september 2026</p>
         </div>
         <a href={RESUME_PATH} download className="btn">
           download pdf ↓

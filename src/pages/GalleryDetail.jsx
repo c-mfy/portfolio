@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { createPortal } from "react-dom";
 import { useParams, Link, Navigate } from "react-router-dom";
 import { projects } from "../data/projects.js";
 import { artworks } from "../data/artworks.js";
@@ -20,6 +21,16 @@ export default function GalleryDetail({ kind }) {
   useEffect(() => {
     setActiveImage(null);
   }, [id]);
+
+  // Close the enlarged image with the Escape key
+  useEffect(() => {
+    if (!activeImage) return;
+    const onKeyDown = (e) => {
+      if (e.key === "Escape") setActiveImage(null);
+    };
+    window.addEventListener("keydown", onKeyDown);
+    return () => window.removeEventListener("keydown", onKeyDown);
+  }, [activeImage]);
 
   // Unknown id → bounce back to the grid
   if (!item) return <Navigate to={basePath} replace />;
@@ -108,16 +119,21 @@ export default function GalleryDetail({ kind }) {
         </div>
       )}
 
-      {activeImage && (
-        <button
-          type="button"
-          className="detail-modal"
-          onClick={() => setActiveImage(null)}
-          aria-label="Close enlarged image"
-        >
-          <img src={activeImage} alt="Enlarged process view" />
-        </button>
-      )}
+      {/* Rendered into <body> so no transformed ancestor can capture the
+          fixed positioning and no page column can constrain the width. */}
+      {activeImage &&
+        createPortal(
+          <div
+            className="detail-modal"
+            role="dialog"
+            aria-modal="true"
+            aria-label="Enlarged image"
+            onClick={() => setActiveImage(null)}
+          >
+            <img src={activeImage} alt="Enlarged process view" />
+          </div>,
+          document.body
+        )}
     </article>
   );
 }

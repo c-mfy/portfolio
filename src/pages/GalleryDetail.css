@@ -151,15 +151,21 @@
   gap: 12px;
 }
 
+/* Enlarged image overlay.
+   Portaled into <body>, so `fixed` reliably means "the viewport".
+   Flex instead of grid: it keeps the image centered even when the image
+   is larger than the box, where grid would let it overflow to one side. */
 .detail-modal {
   position: fixed;
   inset: 0;
   z-index: 200;
-  display: grid;
-  place-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 24px;
   border: 0;
   background: rgba(16, 22, 30, 0.82);
+  cursor: zoom-out;
 }
 .detail-modal img {
   max-width: min(92vw, 1100px);
@@ -169,6 +175,7 @@
   object-fit: contain;
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-lift);
+  cursor: default;
 }
 
 @media (max-width: 760px) {

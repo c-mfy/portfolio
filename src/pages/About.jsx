@@ -21,13 +21,13 @@ export default function About() {
           </p>*/}
 
           <div className="about-text">
-            <p>I'm Xinyu. I'm currently a lead instructor at iCode Augusta, where I get to teach kids how to make games in Roblox, Unreal Engine, and Minecraft :D. I'm also doing IT backend work to manage the technical infrastructure... but that part's not as fun. I'm also working on getting my AWS Cloud Practitioner certification.</p>
+            <p>I'm currently a full-time student at the Georgia Institute of Technology. This past summer, I was a lead instructor at iCode Augusta, where I got to teach kids how to make games in Roblox, Unreal Engine, and Minecraft :D. I'm also did IT backend work to manage the technical infrastructure… but that part's not as fun. I'm also working on getting my AWS Cloud Practitioner certification.</p>
             <p>
-              I study CS and Industrial Design at Georgia Tech and in my free time, I love being active outdoors, playing music for my band, and exploring new hobbies. Check my extras page for some of that, I'm more than just my projects :O.
-            </p>
-            <p>
+              I'm pursuing a B.S. in CS and a minor in Industrial Design. Outside of school, I love being active outdoors, playing music for my band, and exploring new hobbies.
+
               I'm passionate about combining technology and creative arts to produce unique products. I love how I can take ideas that come from pure imagination and design and build them into real experiences.
             </p>
+
             {/* <ul className="about-text"> What I'm up to recently:
               <li>Picking up soccer again after 10 years!</li>
             </ul> */}

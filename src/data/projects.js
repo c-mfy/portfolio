@@ -17,6 +17,22 @@
 
 export const projects = [
   {
+    id: "rsvp",
+    title: "rsvp website",
+    blurb: "cute rsvp website for my friend's birthday party",
+    tags: ["supabase", "html", "css"],
+    image: "/images/rsvp-thumbnail.png", // e.g. "/images/project1.jpg",
+    detail: [
+      "I created an rsvp website for my friend's Miffy themed birthday party. It helped me plan out what items to buy/request people to bring and how many people were attending in total. We ended up having 15 unique rsvps, and the entire to-bring list was filled out. It also saved me a lot of effort and money from having to buy too many items or not enough.",
+      "The plan is to use this website as a template for future events, so I can just change the theme and the items to bring.",
+      "I used Supabase to store the rsvp data and to generate a unique link for each guest. I also used HTML and CSS to make the website look cute and match the theme of the party.",
+    ],
+    gallery: ["/images/rsvp-2.png", "/images/rsvp-4.png", "/images/rsvp-5.png"],
+    links: [
+      { label: "github", url: "https://github.com/c-mfy/rsvp_website.git" }, { label: "website", url: "https://rsvp-website-by-xin.vercel.app" }
+    ],
+  },
+  {
     id: "hirae",
     title: "hirae",
     blurb: "Track how much you've explored your city",
@@ -63,18 +79,18 @@ export const projects = [
       { label: "github", url: "https://github.com/c-mfy/speechwrite" },
     ],
   },
-  {
-    id: "myblindbox",
-    title: "MyBlindBox",
-    blurb: "customized blind box creation tool",
-    tags: ["python", "flask"],
-    image: "/images/myblindbox-thumbnail.webp",
-    detail: [
-      "MyBlindBox is a web application that allows for customizable blind boxes. Users can design their box template, character card, and 3D figure that can be assembled after printing. It functions similar to character customization in a video game, with the intention of users being able to create tangible and unique blind boxes for themselves or as gifts.",
-      "This is my summer 2026 personal project, so it's still in progress but stay tuned for updates!",
-    ],
-    links: [{ label: "github", url: "#" }],
-  },
+  // {
+  //   id: "myblindbox",
+  //   title: "MyBlindBox",
+  //   blurb: "customized blind box creation tool",
+  //   tags: ["python", "flask"],
+  //   image: "/images/myblindbox-thumbnail.webp",
+  //   detail: [
+  //     "MyBlindBox is a web application that allows for customizable blind boxes. Users can design their box template, character card, and 3D figure that can be assembled after printing. It functions similar to character customization in a video game, with the intention of users being able to create tangible and unique blind boxes for themselves or as gifts.",
+  //     "This is my summer 2026 personal project, so it's still in progress but stay tuned for updates!",
+  //   ],
+  //   links: [{ label: "github", url: "#" }],
+  // },
   {
     id: "gtguessr",
     title: "GTGuessr",
