@@ -35,21 +35,21 @@ export const projects = [
   {
     id: "hirae",
     title: "hirae",
-    blurb: "Track how much you've explored your city",
-    tags: ["react", "typescript", "mobile"],
+    blurb: "a local exploration tracker of your everyday life!",
+    tags: ["figma", "react", "node.js", "mobile"],
     image: "/images/hirae-home-thumbnail.png", // e.g. "/images/project1.jpg",
     detail: [
       "WIP."
     ],
     gallery: ["/images/hirae-home.png", "/images/hirae-map1.png", "/images/hirae-journal.png", "/images/hirae-edit.png"],
     links: [
-      { label: "github", url: "https://github.com/candyhen127/GMTKJam" }, { label: "itch.io", url: "https://candyhen127.itch.io/datadump" }
+      // { label: "github", url: "https://github.com/candyhen127/GMTKJam" }, { label: "itch.io", url: "https://candyhen127.itch.io/datadump" }
     ],
   },
   {
     id: "datadump",
     title: "DataDump",
-    blurb: "A 2D pixel platformer for GMTK Game Jam!",
+    blurb: "a 2D pixel platformer for GMTK Game Jam 2026",
     tags: ["unity", "figma", "c##"],
     image: "/images/datadump-process1.png", // e.g. "/images/project1.jpg",
     detail: [
@@ -94,11 +94,14 @@ export const projects = [
   {
     id: "gtguessr",
     title: "GTGuessr",
-    blurb: "Geography based guessing game for GT Campus!",
-    tags: ["python", "django"],
-    image: "/images/project-3-thumbnail.png",
-    detail: ["A pretty cool GeoGuessr clone made for the GT Campus. It includes a full authentication system, a leaderboard, your match history, and an upload system for new locations."],
-    links: [],
+    blurb: "geography based guessing game for GT campus!",
+    tags: ["python", "django", "leaflet"],
+    image: "/images/gtguessr-9.png",
+    detail: ["A pretty cool GeoGuessr clone built for students at Georgia Tech. Students can upload their own photos, and either place their locations manually or automatically with existing exif data. Then they can play and guess the locations of pictures uploaded by others. It includes a full authentication system, a scoring algorithm based on distance, a leaderboard, and your match history."],
+    gallery: ["/images/gtguessr-5.png", "/images/gtguessr-6.png", "/images/gtguessr-7.png", "/images/gtguessr-10.png"],
+    links: [
+      { label: "github", url: "https://github.com/wynnson/GTGuessr" }
+    ],
   },
   {
     id: "gtmoviesstore",
@@ -115,7 +118,7 @@ export const projects = [
   {
     id: "genshinimpactaiguide",
     title: "Genshin Impact AI Guide",
-    blurb: "Very first project for CS 3001...",
+    blurb: "my very first project for CS 3001...",
     tags: ["python", "googleAI"],
     image: "/images/project-5-thumbnail.png",
     detail: ["We all start somewhere right... This was my first project for my Intro to Computing course. It was a two-person group project where we had to use Google's AI alongside an API of our choice.", 

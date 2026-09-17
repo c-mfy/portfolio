@@ -50,8 +50,9 @@ This was for a combat-based rhythm game called Hypermania for VGDev Spring 2026.
     title: "Lightborne Assets",
     blurb: "for a side-scroller platformer game.",
     tags: ["photoshop", "aseprite", "concept art"],
-    image: "",
-    detail: ["art #4 detailed paragraph one."],
-    links: [],
+    image: "/images/lightborne-bg-final1.webp",
+    detail: ["Concept background art, pixel tileset, and character icon art for Lightborne. Click the web build link below to try it out!"],
+    gallery: ["/images/lightborne-2.webp", "/images/lightborne-tileset.webp", "/images/lightborne-character-process1.png"],
+    links: [ { label: "website", url: "https://www.gtvgdev.com/games-archive/lightborne"}, { label: "web build", url: "https://play.lightborne.dev/"}],
   },
 ];

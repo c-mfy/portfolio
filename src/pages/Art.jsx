@@ -8,8 +8,7 @@ export default function Art() {
         {/*<p className="eyebrow">creatives</p>*/}
         <h3>art / designs</h3>
         <p className="lede">
-          illustration, product design, and visual experiments. click a card
-          for the full piece.
+          things i've designed and created. click any to see the process!
         </p>
       </div>
 

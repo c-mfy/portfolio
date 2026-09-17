@@ -8,7 +8,7 @@ export default function Projects() {
         {/*<p className="eyebrow">things i've built</p>*/}
         <h3>projects</h3>
         <p className="lede">
-          a collection of what i've designed and developed. click any card to
+          things i've developed and deployed! click any to
           read more.
         </p>
       </div>
