@@ -55,8 +55,8 @@ export default function App() {
       <main>
         <Analytics />
         <Routes>
-          {/* Landing → About */}
-          <Route path="/" element={<Navigate to="/about" replace />} />
+          {/* Landing → Projects */}
+          <Route path="/" element={<Navigate to="/projects" replace />} />
 
           <Route path="/about" element={<About />} />
 
