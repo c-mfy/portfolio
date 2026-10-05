@@ -20,7 +20,7 @@ export const projects = [
     id: "rsvp",
     title: "rsvp website",
     blurb: "cute rsvp website for my friend's birthday party",
-    tags: ["supabase", "html", "css"],
+    tags: ["Supabase", "HTML", "CSS"],
     image: "/images/rsvp-thumbnail.png", // e.g. "/images/project1.jpg",
     detail: [
       "I created an rsvp website for my friend's Miffy themed birthday party. It helped me plan out what items to buy/request people to bring and how many people were attending in total. We ended up having 15 unique rsvps, and the entire to-bring list was filled out. It also saved me a lot of effort and money from having to buy too many items or not enough.",
@@ -36,7 +36,7 @@ export const projects = [
     id: "hirae",
     title: "hirae",
     blurb: "a local exploration tracker of your everyday life!",
-    tags: ["figma", "react", "node.js", "mobile"],
+    tags: ["Figma", "React", "Node.js", "mobile"],
     image: "/images/hirae-home-thumbnail.png", // e.g. "/images/project1.jpg",
     detail: [
       "WIP."
@@ -50,7 +50,7 @@ export const projects = [
     id: "datadump",
     title: "DataDump",
     blurb: "a 2D pixel platformer for GMTK Game Jam 2026",
-    tags: ["unity", "figma", "c##"],
+    tags: ["Unity", "Figma", "C#"],
     image: "/images/datadump-process1.png", // e.g. "/images/project1.jpg",
     detail: [
       "DataDump is a 2D pixel platformer game that my friends and I made for the 2026 GMTK Game Jam. This Game Jam is one of the biggest out there, reaching 10.6k submissions this year. We only had 4 days to make all of the art, code, and story (while also working 9-5 jobs).",
@@ -67,7 +67,7 @@ export const projects = [
     id: "speechwrite",
     title: "SpeechWrite",
     blurb: "ASR bias evaluator for accented English",
-    tags: ["react", "node.js", "figma", "claude"],
+    tags: ["React", "Node.js", "Figma", "Claude"],
     image: "/images/project-1-thumbnail.png", // e.g. "/images/project1.jpg",
     detail: [
       "Have you ever tried to watch a video where subtitles can't keep up with the speaker's accent? SpeechWrite is a tool designed to evaluate automatic speech recognition bias in accented English so that these issues can be identified and addressed.",
@@ -95,7 +95,7 @@ export const projects = [
     id: "gtguessr",
     title: "GTGuessr",
     blurb: "geography based guessing game for GT campus!",
-    tags: ["python", "django", "leaflet"],
+    tags: ["Python", "Django", "Leaflet"],
     image: "/images/gtguessr-9.png",
     detail: ["A pretty cool GeoGuessr clone built for students at Georgia Tech. Students can upload their own photos, and either place their locations manually or automatically with existing exif data. Then they can play and guess the locations of pictures uploaded by others. It includes a full authentication system, a scoring algorithm based on distance, a leaderboard, and your match history."],
     gallery: ["/images/gtguessr-5.png", "/images/gtguessr-6.png", "/images/gtguessr-7.png", "/images/gtguessr-10.png"],
@@ -107,7 +107,7 @@ export const projects = [
     id: "gtmoviesstore",
     title: "GT Movies Store",
     blurb: "movie distribution platform",
-    tags: ["django", "python"],
+    tags: ["Django", "Python"],
     image: "/images/gtmovies_thumbnail.png",
     detail: ["GT Movies Store is a Django web application that I made for CS2340. It is a movie distrubution platform where users can purchase movies, leave reviews, and rate them. It was completely textbook-guided, but it taught me a lot about authentication systems and databases.",
               "I also designed the logo (does it read as 'GT'?), and took my own notes and made them into a presentation, too.",
@@ -119,7 +119,7 @@ export const projects = [
     id: "genshinimpactaiguide",
     title: "Genshin Impact AI Guide",
     blurb: "my very first project for CS 3001...",
-    tags: ["python", "googleAI"],
+    tags: ["Python", "Google AI"],
     image: "/images/project-5-thumbnail.png",
     detail: ["We all start somewhere right... This was my first project for my Intro to Computing course. It was a two-person group project where we had to use Google's AI alongside an API of our choice.", 
       "We decided to use a now very outdated Genshin API to create a character info guide and a character farming guide. We had deployed it temporarily to demo to our professor, but it was taken down after the semester ended. Overall, a very simple introduction to AI and APIs, but it was fun :)."],

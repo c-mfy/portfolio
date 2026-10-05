@@ -8,10 +8,23 @@
 
 export const artworks = [
   {
+    id: "magazine",
+    title: "META: Magazine",
+    blurb: "photos, articles, and design all by me!",
+    tags: ["Adobe InDesign", "Adobe Photoshop"],
+    image: "/images/mag.jpg", // e.g. "/images/art1.jpg"
+    gallery: ["/images/mag.jpg", "/images/mag-1.jpg", "/images/mag-2.jpg", "/images/mag-3.jpg"],
+    detail: [
+      "Printed my own magazine after photographing, writing articles, and designing layouts for a year. \
+This magazine is the biggest showcase of my personal style in creative work.",
+    ],
+    links: [],
+  },
+  {
     id: "nytheacharactersplash",
     title: "Nythea Character Splash",
     blurb: "for a combat-based rhythm game.",
-    tags: ["procreate", "illustration"],
+    tags: ["Procreate", "illustration"],
     image: "/images/nythea.webp", // e.g. "/images/art1.jpg"
     gallery: ["/images/nythea-process1.webp", "/images/nythea-process2.webp", "/images/hypermania1.png", "/images/hypermania2.png"],
     detail: [
@@ -25,7 +38,7 @@ This was for a combat-based rhythm game called Hypermania for VGDev Spring 2026.
     id: "akari",
     title: "AKARI",
     blurb: "a natural sunlight lamp",
-    tags: ["blender", "design"],
+    tags: ["Blender", "design"],
     image: "/images/akari.webp",
     detail: ["Did you know I love interior design? I truly believe the saying that your room is a reflection of your mind. One of the most important things to me in a room is lighting. Not only that, but the way sunlight casts into a room is one of its most underrated features.",
       "AKARI is a lamp intended to bring natural sunlight into your room by using reflective panels to distribute the rays in different angles before diffusing them with a translucent dome. ",
@@ -37,7 +50,7 @@ This was for a combat-based rhythm game called Hypermania for VGDev Spring 2026.
     id: "miffypapertowelholder",
     title: "Miffy Paper Towel Holder",
     blurb: "custom designed paper towel holder.",
-    tags: ["autodesk inventor", "product design"],
+    tags: ["Autodesk Inventor", "product design"],
     image: "/images/paper_towel_holder_1.webp",
     detail: ["A miffy themed paper towel holder I cadded because my dorm needed one, and my roommates love miffy. After I joined BattleBots I decided it was time for me to finally learn how to CAD, so I did this project over winter break of my sophomore year while recovering from my wisdom teeth removal :O.",
       "The design includes magnetic inserts in the miffy head and the vertical pipe so that switching paper towel rolls is easy. The final print was okay, but the miffy head was too big and I still want to change some aspects. Version 2 is coming soon...",
@@ -49,7 +62,7 @@ This was for a combat-based rhythm game called Hypermania for VGDev Spring 2026.
     id: "lightborneassets",
     title: "Lightborne Assets",
     blurb: "for a side-scroller platformer game.",
-    tags: ["photoshop", "aseprite", "concept art"],
+    tags: ["Photoshop", "Aseprite", "concept art"],
     image: "/images/lightborne-bg-final1.webp",
     detail: ["Concept background art, pixel tileset, and character icon art for Lightborne. Click the web build link below to try it out!"],
     gallery: ["/images/lightborne-2.webp", "/images/lightborne-tileset.webp", "/images/lightborne-character-process1.png"],
