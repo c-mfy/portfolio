@@ -16,6 +16,22 @@
    ========================================================================= */
 
 export const projects = [
+    {
+    id: "recall-me-maybe",
+    title: "recall me maybe",
+    blurb: "early food-safety signal detection for HackGT 2026",
+    tags: ["Next.js", "FastAPI", "Supabase", "Grok", "Figma"],
+    image: "/images/rmm-build.png",
+    detail: [
+      "Recall Me Maybe watches public posts for clusters of complaints about food products, like a bunch of people separately describing the same reaction to the same snack, and surfaces them as possible safety signals for a person to look into. It doesn't predict what the FDA will do, and it doesn't claim a complaint means a product caused anything. It just pulls scattered reports into one place with the evidence attached.",
+      "Early on we hit a design problem: if you search product by product, you only find complaints about products you already suspect, which defeats the point. So we switched to a broad Grok sweep that finds which products people are complaining about in the first place. An hourly background job collects new posts, and Grok groups reports that describe the same issue in different words.",
+      "We built it in a team of 3 over a weekend at HackGT 2026 for the SpaceXAI track. I made the Figma designs and built the frontend to match them. My teammates handled the FastAPI backend, the Supabase database, and the Grok pipeline.",
+    ],
+    gallery: ["/images/rmm-demo-vid-gif.gif", "/images/rmm-design.png", "/images/rmm-build.png"],
+    links: [
+      { label: "github", url: "https://github.com/emmaZX/HackGT-26" }, { label: "devpost", url: "https://devpost.com/software/recall-me-maybe-z76fwl  " }
+    ],
+  },
   {
     id: "rsvp",
     title: "rsvp website",
