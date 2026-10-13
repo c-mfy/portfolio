@@ -52,10 +52,10 @@ export const projects = [
     id: "hirae",
     title: "hirae",
     blurb: "a local exploration tracker of your everyday life!",
-    tags: ["Figma", "React", "Node.js", "mobile"],
+    tags: ["Figma", "React", "mobile"],
     image: "/images/hirae-home-thumbnail.png", // e.g. "/images/project1.jpg",
     detail: [
-      "WIP."
+      "an exploration tracker designed to bring fun and whimsy to my daily life, because i don't want to succumb to the monotony of routine. places you've been fill in on the map like uncovering the map in a game, and each walk logs itself as a journal entry. still in progress!"
     ],
     gallery: ["/images/hirae-home.png", "/images/hirae-map1.png", "/images/hirae-journal.png", "/images/hirae-edit.png"],
     links: [
