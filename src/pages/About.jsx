@@ -21,11 +21,14 @@ export default function About() {
           </p>*/}
 
           <div className="about-text">
-            <p>I'm currently a full-time student at the Georgia Institute of Technology. This past summer, I was a lead instructor at iCode Augusta, where I got to teach kids how to make games in Roblox, Unreal Engine, and Minecraft :D. I'm also did IT backend work to manage the technical infrastructure… but that part's not as fun. I'm also working on getting my AWS Cloud Practitioner certification.</p>
             <p>
-              I'm pursuing a B.S. in CS and a minor in Industrial Design. Outside of school, I love being active outdoors, playing music for my band, and exploring new hobbies.
-
-              I'm passionate about combining technology and creative arts to produce unique products. I love how I can take ideas that come from pure imagination and design and build them into real experiences.
+              I'm currently a full-time student at the Georgia Institute of Technology, pursuing a B.S. in CS and a minor in Industrial Design. Right now I'm a developer on the WELab VIP, building the work order system for a facility management app for local parishes.
+            </p>
+            <p>
+              This past summer, I was a lead instructor at iCode Augusta, where I got to teach kids how to make games in Roblox, Unreal Engine, and Minecraft :D. I also did IT backend work to manage the technical infrastructure… but that part's not as fun. I'm also working on getting my AWS Cloud Practitioner certification.
+            </p>
+            <p>
+              Outside of school, I love being active outdoors, playing music for my band, and exploring new hobbies. I'm passionate about combining technology and creative arts to produce unique products. I love how I can take ideas that come from pure imagination and design and build them into real experiences.
             </p>
 
             {/* <ul className="about-text"> What I'm up to recently:
