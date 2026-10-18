@@ -17,6 +17,22 @@
 
 export const projects = [
     {
+    id: "carebear",
+    title: "CareBear",
+    blurb: "tap-to-log home care handoffs for Hack Like W@CC 2026",
+    tags: ["React", "TypeScript", "Tailwind", "Gemini", "NFC", "Figma"],
+    image: "/images/carebear-thumbnail.png",
+    detail: [
+      "CareBear helps families and nurses share home care for medically complex patients. Every device gets a cute NFC sticker, so a caregiver can just tap their phone on the nebulizer or feeding pump to log a treatment, with no app to install. Tapping the sticker on the patient's door checks you in and out, which doubles as proof you were actually there for paid aides.",
+      "The home screen is the hub for the patient: what's overdue, today's tasks, a calendar of who covered each shift, and past care history. Gemini writes a recap of the last 12 hours, suggests answers so you don't have to fill in every form by hand, and writes the handoff summary when you check out, so the next caregiver knows exactly where things stand.",
+      "We built it in 24 hours at Hack Like W@CC 2026 for the Health & Accessibility track, with a 'Back to 2016' sticker theme. I planned and diagrammed the user flow, built the frontend with Claude from our Figma designs, and animated our mascot Kuma. My teammates added the emergency page, timesheets, and paid-staff features.",
+    ],
+    gallery: ["/images/carebear-1.png", "/images/carebear-2.png", "/images/carebear-3.png"],
+    links: [
+      { label: "github", url: "https://github.com/c-mfy/hacklikewacc" }, { label: "devpost", url: "https://devpost.com/software/care-bear-upn8m5" }
+    ],
+  },
+    {
     id: "recall-me-maybe",
     title: "recall me maybe",
     blurb: "early food-safety signal detection for HackGT 2026",
